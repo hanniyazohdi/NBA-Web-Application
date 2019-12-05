@@ -1,0 +1,135 @@
+html {
+    background-color: white;
+}
+
+h1,h2 {
+    color: black;
+    text-align: center;
+    font-family: helvetica;
+    text-shadow: black;
+    padding: 15px;
+    border-bottom: 1px solid red;
+}
+
+h1{
+    font-size: 45px;
+    text-shadow: 2px 2px #FF0000;
+}
+
+h3{
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 15px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.container {
+  display: flex;
+  padding-top: 30px;
+}
+
+.container > div {
+  flex: 1; /*grow*/
+}
+
+.card{ 
+  width: 550px;
+  padding: 20px;
+  margin: 45px auto 25px auto;
+}
+
+
+.teams{
+    border: 1px solid black;
+    background-color: lightgrey;
+    padding: 20px;
+    margin-left: 15px;
+    height:600px; 
+    width:18%;
+    overflow:hidden; 
+    overflow-y:scroll;
+}
+
+.teamButton {
+	background:linear-gradient(to bottom, #FFA07A 5%, #F08080 100%);
+	background-color:#FFA07A;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:10px 26px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+
+.teamButton:hover {
+	background:linear-gradient(to bottom, #B22222 5%, #800000 100%);
+	background-color:#B22222;
+}
+
+.teamButton:active {
+	position:relative;
+	top:1px;
+}
+
+ul, li{
+    color: black;
+    list-style: none;
+    font-family: monospace;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+li:hover{
+    font-size: 16px;
+    color: red;
+}
+
+body {
+    margin: 35px;
+}
+
+.searchBox{
+  width: 490px;
+  padding: 15px;
+}
+
+.comments{
+    float: right;
+    line-height: 30px;
+    font-family: helvetica;
+}
+
+.searchBar{
+  margin: 0 auto;
+  width: 60%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border: 1px solid #D0CFCE;
+  outline: none;
+ }
+
+.button {
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  padding: 5px;
+}
+
+.button:hover {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+
+p{
+    color: black;
+    font-family: helvetica;
+    line-height: 20px;
+}
